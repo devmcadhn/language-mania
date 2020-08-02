@@ -1,0 +1,95 @@
+﻿.our-plans{
+  width:100%;
+}
+.our-plans .price-plan{
+  width:100%;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  margin-bottom: 15px;
+}
+.our-plans .price-plan:last-child{
+  margin-bottom: 0;
+}
+.our-plans .price-plan .plan-details,
+.our-plans .price-plan .plan-features,
+.our-plans .price-plan .accept-plan{
+  float:left;
+  padding: 0 10px;
+}
+.our-plans .price-plan .plan-details{
+  width: 25%;
+}
+.our-plans .price-plan .plan-features{
+  width:55%;
+}
+.our-plans .price-plan .accept-plan{
+  width:20%;
+}
+
+.our-plans .price-plan .plan-details h2{
+  display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: #252a37;
+    margin-bottom: 0;
+}
+.our-plans .price-plan .plan-details h3{
+  font-size: 34px;
+  padding: 0 0;
+  position: relative;
+  color: #252a37;
+  margin: 0 0 25px;
+}
+.our-plans .price-plan .plan-details h3 sub{
+  font-size: 20px;
+  left: -0.6em;
+  position: relative;
+}
+.our-plans .price-plan .plan-details h3 sup{
+  top: -0.9em;
+  font-size: 50%;
+  left: -0.01em;
+  font-weight: 700;
+}
+/* plan features */
+.our-plans .price-plan .plan-features ul{
+  list-style: none;
+}
+.our-plans .price-plan .plan-features ul li{
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 4px;
+}
+.our-plans .price-plan .plan-features ul li:before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #2154cf;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+/* plan details ends here */
+.our-plans .price-plan .accept-plan{
+  text-align: center;
+}
+.our-plans .price-plan .accept-plan a{
+  text-align: center;
+  padding: 5px 20px;
+  background-color: #2154cf;
+  color: #fff;
+  border-radius: 27px;
+  margin-top: 20%;
+  display: inline-block;
+}
+.our-plans .price-plan .accept-plan a:hover{
+  background:#272d33;
+}
